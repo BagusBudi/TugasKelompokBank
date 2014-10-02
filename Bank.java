@@ -1,6 +1,4 @@
 
-package bank;
-
 /**
  *
  * @author Bagus Prakoso n Dede Iskandar
@@ -92,7 +90,7 @@ public class Bank {
 				}
 				else if (result2 == JOptionPane.CANCEL_OPTION)
 					message ="anda memilih cancel";
-				break
+				break;
 
 			case 4:
 				int result3 = JOptionPane.showConfirmDialog(null,"APAKAH ANDA INGIN MELIHAT DATA TRANSAKSI ?",
